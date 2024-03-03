@@ -37,7 +37,10 @@
     <nav class="topnav" id="myTopnav">
       <div class="row">
         <div class="col">
-          <a href="#home" class="active">Home</a>
+          <a href="{% url 'home' %}" class="active">Home</a>
+        </div>
+        <div class="col">
+          <a href="{% url 'products' %}" class="active">Products</a>
         </div>
         <div class="col navsearchcol">
           <div class="wrap">
